@@ -43,37 +43,37 @@ Mi modelo no solo predice, sino que genera una lista de acción para el equipo d
 ### 1. Integración de Datos (SQL to Python)
 Se estableció una conexión robusta entre SQL Server y Jupyter Notebook para procesar un dataset de más de 32,000 registros de forma eficiente.
 
-![Conexión SQL](image_50727e.png)
+![Conexión SQL](tab1.png)
 
 ### 2. Análisis Exploratorio (EDA)
 Mediante visualizaciones estadísticas, se identificó que el **Monto del Préstamo** tiene una correlación directa con las categorías de riesgo más críticas.
 
-![Distribución de Riesgo](image_459c34.png)
-![Análisis de Montos](image_459bf7.png)
+![Distribución de Riesgo](tab2.png)
+![Análisis de Montos](tab3.png)
 
 ### 3. Modelo de Machine Learning (Random Forest)
 Se entrenó un modelo de **Random Forest Classifier** que evalúa múltiples variables simultáneamente (Edad, Ingreso, Vivienda, Motivo del préstamo). El modelo es capaz de identificar patrones complejos que definen la probabilidad de mora.
 
-![Mapa de Calor de Riesgo](image_4598f2.png)
+![Mapa de Calor de Riesgo](tab4.png)
 
 El modelo alcanzó un desempeño excepcional, permitiendo una separación casi perfecta entre clientes solventes y morosos.
 
 * **Precisión Total:** 99.99%
 * **F1-Score:** 1.00 (Equilibrio perfecto entre precisión y sensibilidad).
 
-![Matriz de Confusión](image_452099.png)
+![Matriz de Confusión](tab6.png)
 
 
 
 ### 4. Importancia de las Variables (Feature Importance)
 El modelo determinó que el **Ingreso Anual**, la **Tasa de Interés** y el **Monto del Préstamo** son los tres pilares que más influyen en la salud crediticia del banco.
 
-![Importancia de Variables](image_4598b2.png)
+![Importancia de Variables](tab5.png)
 
 ## 📁 Entregable Final: Reporte de Acción Inmediata
 Como resultado final, el sistema genera automáticamente un reporte en Excel que etiqueta a los clientes con **"Acción Inmediata"**, permitiendo al banco actuar antes de que se produzca la pérdida financiera.
 
-![Reporte Final Excel](image_4f82d2.png)
+![Reporte Final Excel])
 
 ## 🛠️ Tecnologías Utilizadas
 * **SQL Server**: Limpieza y modelado relacional de datos.
