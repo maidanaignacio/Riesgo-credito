@@ -74,8 +74,8 @@ El modelo determinó que el **Ingreso Anual**, la **Tasa de Interés** y el **Mo
 Como resultado final, el sistema genera automáticamente un reporte en Excel que etiqueta a los clientes con **"Acción Inmediata"**, permitiendo al banco actuar antes de que se produzca la pérdida financiera.
 
 Adjunto el reporte completo con los resultados del análisis predictivo:  
-📁 **[Análisis_Riesgo_Final_ML.xlsx](Análisis_Riesgo_Final_ML.xlsx)**
 
+![Informe]()
 ## 🛠️ Tecnologías Utilizadas
 * **SQL Server**: Limpieza y modelado relacional de datos.
 * **Pandas**: Manipulación y limpieza de DataFrames.
