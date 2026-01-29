@@ -73,7 +73,7 @@ El modelo determinó que el **Ingreso Anual**, la **Tasa de Interés** y el **Mo
 ## 📁 Entregable Final: Reporte de Acción Inmediata
 Como resultado final, el sistema genera automáticamente un reporte en Excel que etiqueta a los clientes con **"Acción Inmediata"**, permitiendo al banco actuar antes de que se produzca la pérdida financiera.
 
-![Reporte Final Excel])
+![Reporte Final Excel](Análisis_Riesgo_Final_ML.xlsx)
 
 ## 🛠️ Tecnologías Utilizadas
 * **SQL Server**: Limpieza y modelado relacional de datos.
