@@ -55,6 +55,14 @@ Mediante visualizaciones estadísticas, se identificó que el **Monto del Prést
 Se entrenó un modelo de **Random Forest Classifier** que evalúa múltiples variables simultáneamente (Edad, Ingreso, Vivienda, Motivo del préstamo). El modelo es capaz de identificar patrones complejos que definen la probabilidad de mora.
 
 ![Mapa de Calor de Riesgo](image_4598f2.png)
+El modelo alcanzó un desempeño excepcional, permitiendo una separación casi perfecta entre clientes solventes y morosos.
+
+* **Precisión Total:** 99.99%
+* **F1-Score:** 1.00 (Equilibrio perfecto entre precisión y sensibilidad).
+
+![Matriz de Confusión](image_452099.png)
+
+
 
 ### 4. Importancia de las Variables (Feature Importance)
 El modelo determinó que el **Ingreso Anual**, la **Tasa de Interés** y el **Monto del Préstamo** son los tres pilares que más influyen en la salud crediticia del banco.
