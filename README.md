@@ -29,6 +29,15 @@ El proyecto se dividió en tres fases críticas para garantizar la integridad y 
 * **Variables Críticas**: Se identificó que la **Tasa de Interés** y el **Ingreso Anual** son los principales indicadores de riesgo.
 * **Segmentos de Alerta**: Los clientes con viviendas rentadas y préstamos para "Consolidación de Deuda" presentan una probabilidad de mora significativamente superior al promedio.
 
+ ## 🎯 Impacto y Resultados de Negocio
+
+Mi modelo no solo predice, sino que genera una lista de acción para el equipo de cobranzas, priorizando a los clientes que tienen un 100% de probabilidad de default basándose en su situación de vivienda y nivel de ingresos.
+
+### Beneficios del proyecto:
+* **Optimización de Cobranzas**: El equipo de riesgo ya no llama al azar, sino que contacta primero a los perfiles detectados por el Machine Learning.
+* **Precisión en la Evaluación**: Identificación de patrones de riesgo (ej: Clientes en RENTA con bajos ingresos) que pasan desapercibidos en análisis tradicionales.
+* **Automatización de Punta a Punta**: Desde la ingesta en SQL hasta el reporte final en Excel.
+
 ## 🛠️ Estructura del Repositorio
 * `/sql`: Scripts de creación de base de datos, tablas y vistas.
 * `/cuadernos`: Notebooks de Jupyter con el proceso de ML de punta a punta.
