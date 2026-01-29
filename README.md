@@ -38,11 +38,54 @@ Mi modelo no solo predice, sino que genera una lista de acción para el equipo d
 * **Precisión en la Evaluación**: Identificación de patrones de riesgo (ej: Clientes en RENTA con bajos ingresos) que pasan desapercibidos en análisis tradicionales.
 * **Automatización de Punta a Punta**: Desde la ingesta en SQL hasta el reporte final en Excel.
 
+## 🚀 Fases del Proyecto
+
+### 1. Integración de Datos (SQL to Python)
+Se estableció una conexión robusta entre SQL Server y Jupyter Notebook para procesar un dataset de más de 32,000 registros de forma eficiente.
+
+![Conexión SQL](image_50727e.png)
+
+### 2. Análisis Exploratorio (EDA)
+Mediante visualizaciones estadísticas, se identificó que el **Monto del Préstamo** tiene una correlación directa con las categorías de riesgo más críticas.
+
+![Distribución de Riesgo](image_459c34.png)
+![Análisis de Montos](image_459bf7.png)
+
+### 3. Modelo de Machine Learning (Random Forest)
+Se entrenó un modelo de **Random Forest Classifier** que evalúa múltiples variables simultáneamente (Edad, Ingreso, Vivienda, Motivo del préstamo). El modelo es capaz de identificar patrones complejos que definen la probabilidad de mora.
+
+![Mapa de Calor de Riesgo](image_4598f2.png)
+
+### 4. Importancia de las Variables (Feature Importance)
+El modelo determinó que el **Ingreso Anual**, la **Tasa de Interés** y el **Monto del Préstamo** son los tres pilares que más influyen en la salud crediticia del banco.
+
+![Importancia de Variables](image_4598b2.png)
+
+## 📁 Entregable Final: Reporte de Acción Inmediata
+Como resultado final, el sistema genera automáticamente un reporte en Excel que etiqueta a los clientes con **"Acción Inmediata"**, permitiendo al banco actuar antes de que se produzca la pérdida financiera.
+
+![Reporte Final Excel](image_4f82d2.png)
+
+## 🛠️ Tecnologías Utilizadas
+* **SQL Server**: Limpieza y modelado relacional de datos.
+* **Pandas**: Manipulación y limpieza de DataFrames.
+* **Scikit-Learn**: Entrenamiento del modelo de Random Forest.
+* **Matplotlib & Seaborn**: Generación de visualizaciones estadísticas.
+* **Jupyter Notebook**: Entorno de desarrollo para la ciencia de datos.
+
+---
+👨‍💻 **Desarrollado por Maidana Ignacio**
+
+
+
 ## 🛠️ Estructura del Repositorio
 * `/sql`: Scripts de creación de base de datos, tablas y vistas.
 * `/cuadernos`: Notebooks de Jupyter con el proceso de ML de punta a punta.
 * `/datos`: Archivos procesados y reportes finales en Excel/CSV.
 * `/paneles`: Capturas de pantalla de las gráficas y análisis visual.
+
+
+
 
 ## 👨‍💻 Autor
 **Maidana Ignacio**
