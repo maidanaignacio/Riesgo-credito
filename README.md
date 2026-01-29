@@ -75,7 +75,7 @@ Como resultado final, el sistema genera automáticamente un reporte en Excel que
 
 Adjunto el reporte completo con los resultados del análisis predictivo:  
 
-![Informe]()
+![Informe](Análisis_Riesgo_Final_ML.xlsx)
 ## 🛠️ Tecnologías Utilizadas
 * **SQL Server**: Limpieza y modelado relacional de datos.
 * **Pandas**: Manipulación y limpieza de DataFrames.
